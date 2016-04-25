@@ -35,9 +35,15 @@ public class ArraysBenchmark {
 		/*
 		 * Runtime.getRuntime().availableProcessors() returns 4
 		 * 
+		 * i5 Maaf
 		 * Benchmark                                Mode  Cnt     Score     Error  Units
 		 * ArraysBenchmark.benchmarkParallelSetAll  avgt    5   107,355 ±  30,024  ms/op
 		 * ArraysBenchmark.benchmarkSetAll          avgt    5   392,623 ±  16,435  ms/op
+		 *  
+		 * i5 perso
+		 * Benchmark                                Mode  Cnt     Score      Error  Units
+		 * ArraysBenchmark.benchmarkParallelSetAll  avgt    5    52,900 ±   30,355  ms/op
+		 * ArraysBenchmark.benchmarkSetAll          avgt    5   254,993 ±   71,588  ms/op
 		 *   
 		 * --> performances ~ x4  
 		 */
